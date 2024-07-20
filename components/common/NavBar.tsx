@@ -16,7 +16,7 @@ function NavBar() {
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between md:mx-[9rem] items-center">
           <div>
-            <img src="/images/epixelap_logo.png" alt="logo" />
+            <img src="/images/logo.png" alt="logo" className="w-[50%]" />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p
@@ -58,11 +58,7 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img
-              src="/images/epixelap_logo.png"
-              alt="logo"
-              className="w-[7rem]"
-            />
+            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
