@@ -27,26 +27,21 @@ function NavBar() {
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              About Us
+              Sobre
             </p>
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Our App
-            </p>
-            <p
-              className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-            >
-              Contacts
+              Contato
             </p>
           </div>
           <div className="flex items-center gap-[40px] select-none">
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Login
+              Entrar
             </p>
-            <MainButton text="Sign up" classes="shadow-none" />
+            <MainButton text="Cadastrar" classes="shadow-none" />
           </div>
         </div>
       </div>
@@ -87,26 +82,21 @@ function NavBar() {
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                About Us
+                Sobre
               </p>
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                Our App
-              </p>
-              <p
-                className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
-              >
-                Contacts
+                Contato
               </p>
 
               <div className="flex flex-col gap-[40px] select-none">
                 <p
                   className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
                 >
-                  Login
+                  Entrar
                 </p>
-                <MainButton text="Sign up" classes="shadow-none" />
+                <MainButton text="Cadastrar" classes="shadow-none" />
               </div>
             </div>
           </div>
