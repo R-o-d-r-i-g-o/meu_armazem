@@ -10,7 +10,7 @@ function HeroSection() {
         </p>
         <p className="text-[1.375rem] font-[500]">
           Nosso objetivo é fornecer acesso a diversas ferramentas de maneira
-          totalmente gratuita, focando na usabilidade de nossos clientes
+          totalmente gratuita, focando na usabilidade de nossos usuários
         </p>
         <div className="flex gap-[1.75rem] items-center mt-[3rem]">
           <MainButton
