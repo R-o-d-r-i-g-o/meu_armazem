@@ -20,19 +20,19 @@ function NavBar() {
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <a
-              href="#home"
+              href="/#home"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Home
             </a>
             <a
-              href="#sobre"
+              href="/#sobre"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Sobre
             </a>
             <a
-              href="#contato"
+              href="/#contato"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Contato
@@ -78,19 +78,19 @@ function NavBar() {
           <div className="my-8 select-none animate-in slide-in-from-right">
             <div className="flex flex-col gap-8 mt-8 mx-4">
               <a
-                href="#home"
+                href="/#home"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Home
               </a>
               <a
-                href="#sobre"
+                href="/#sobre"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Sobre
               </a>
               <a
-                href="#contato"
+                href="/#contato"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Contato

@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
 import MainButton from "../common/MainButton";
+import { useRouter } from "next/navigation";
 
 function HeroSection() {
+  const router = useRouter();
+
   return (
     <section
       id="home"
@@ -19,6 +24,7 @@ function HeroSection() {
           <MainButton
             text="Dê uma olhada!"
             classes="shadow-none w-[10.125rem]"
+            action={() => router.push("/menu")}
           />
           <div className="flex gap-[1.56rem] items-center">
             <img src="/images/fancy_play_icon.png" alt="play icon" />

@@ -44,6 +44,7 @@ export default function RootLayout({
       <head>
         <AdSense pId="ca-pub-5994634934941500" />
       </head>
+
       <body className={ageo.className}>{children}</body>
     </html>
   );
