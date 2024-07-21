@@ -6,11 +6,12 @@ function VideoPlayerSection() {
     <section className="flex flex-col md:flex-row justify-between items-center gap-8 mt-[11.31rem]">
       <div>
         <p className="text-lightBlue font-bold text-2xl ">
-          Many Blocks and Components
+          Conheça nossa biblioteca
         </p>
         <p className="text-customLightGray text-[1.2rem] mt-4 mb-8">
-          Startup Framework contains components and complex blocks which can
-          easily be integrated into almost any design.{" "}
+          Abaixo está o acesso à nosso biblioteca de utilitários que lhe
+          enconomizará muito tempo de trabalho. Faça bom uso das ferramentas
+          disponibilizadas 😊
         </p>
         <MainButton
           text="Explore"

@@ -14,18 +14,18 @@ function TeamSection() {
       id: 1,
       imageUrl: "/images/mason.jpg",
       name: "Mason Campbell",
-      profession: "UI Designer",
+      profession: "Full Cycle Developer",
     },
     {
       id: 2,
       imageUrl: "/images/irea.jpg",
       name: "Irea Evans",
-      profession: "Client Manager",
+      profession: "Product Manager",
     },
   ];
   return (
     <section className="mt-[9rem]">
-      <Header title="our team" subtitle="Meet The Team" />
+      <Header title="Nosso time" subtitle="Conheça nosso time" />
       <div className="grid grid-cols-1 gap-16  md:grid-cols-2 lg:grid-cols-3 mt-8 md:mt-[3.31rem]">
         {teamData.map((team) => (
           <TeamCard
