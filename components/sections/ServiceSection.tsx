@@ -27,7 +27,7 @@ function ServiceSection() {
     },
   ];
   return (
-    <section>
+    <section id="sobre">
       <Header title="serviço" subtitle="Nossa visão & objetivos" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-[3.56rem] justify-around mt-8 md:mt-[6.75rem]">
         {serviceData.map((service) => (

@@ -19,21 +19,24 @@ function NavBar() {
             <img src="/images/logo.png" alt="logo" className="w-[50%]" />
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
-            <p
+            <a
+              href="#home"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Home
-            </p>
-            <p
+            </a>
+            <a
+              href="#sobre"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Sobre
-            </p>
-            <p
+            </a>
+            <a
+              href="#contato"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Contato
-            </p>
+            </a>
           </div>
           <div className="flex items-center gap-[40px] select-none">
             <p
@@ -74,21 +77,24 @@ function NavBar() {
         {menu ? (
           <div className="my-8 select-none animate-in slide-in-from-right">
             <div className="flex flex-col gap-8 mt-8 mx-4">
-              <p
+              <a
+                href="#home"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Home
-              </p>
-              <p
+              </a>
+              <a
+                href="#sobre"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Sobre
-              </p>
-              <p
+              </a>
+              <a
+                href="#contato"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Contato
-              </p>
+              </a>
 
               <div className="flex flex-col gap-[40px] select-none">
                 <p

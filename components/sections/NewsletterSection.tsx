@@ -5,7 +5,7 @@ import MainButton from "../common/MainButton";
 
 function NewsletterSection() {
   return (
-    <section className="mt-[9rem]">
+    <section id="contato" className="mt-[9rem]">
       <Header title="Nosso blog" subtitle="increva-se em nosso jornal" />
       <div className="flex flex-col md:flex-row  items-center mt-8 md:mt-[3.31rem]">
         <div>
