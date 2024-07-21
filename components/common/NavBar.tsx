@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { X } from "lucide-react";
 import MainButton from "./MainButton";
+import Link from "next/link";
 
 function NavBar() {
   const [menu, setMenu] = useState(false);
@@ -15,28 +16,28 @@ function NavBar() {
       {/* DESKTOP */}
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between md:mx-[9rem] items-center">
-          <div>
+          <Link href="/">
             <img src="/images/logo.png" alt="logo" className="w-[50%]" />
-          </div>
+          </Link>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
-            <a
+            <Link
               href="/#home"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#sobre"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Sobre
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#contato"
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
               Contato
-            </a>
+            </Link>
           </div>
           <div className="flex items-center gap-[40px] select-none">
             <p
@@ -56,7 +57,9 @@ function NavBar() {
       >
         <div className="flex justify-between mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+            <Link href="/">
+              <img src="/images/logo.png" alt="logo" className="w-[7rem]" />
+            </Link>
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
@@ -77,24 +80,24 @@ function NavBar() {
         {menu ? (
           <div className="my-8 select-none animate-in slide-in-from-right">
             <div className="flex flex-col gap-8 mt-8 mx-4">
-              <a
+              <Link
                 href="/#home"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#sobre"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Sobre
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#contato"
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
                 Contato
-              </a>
+              </Link>
 
               <div className="flex flex-col gap-[40px] select-none">
                 <p

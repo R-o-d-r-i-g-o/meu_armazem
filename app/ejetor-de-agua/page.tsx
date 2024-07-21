@@ -1,5 +1,10 @@
-const WaterEgetor = () => {
-  <>test</>;
-};
+import NavBar from "@/components/common/NavBar";
 
-export default WaterEgetor;
+const WaterEjector = () => (
+  <>
+    <NavBar />
+    test
+  </>
+);
+
+export default WaterEjector;
