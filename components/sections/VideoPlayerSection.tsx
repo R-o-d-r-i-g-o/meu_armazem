@@ -14,7 +14,7 @@ function VideoPlayerSection() {
           disponibilizadas 😊
         </p>
         <MainButton
-          text="Explore"
+          text="Explorar"
           classes="!h-[3.01544rem] hover:bg-white w-[8.2925rem] text-lightBlue font-bold text-[1rem] rounded-[6.25rem] border-[4px] border-[#EBEAED] bg-white shadow-none"
         />
       </div>

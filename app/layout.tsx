@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import localFont from "next/font/local";
+import AdSense from "@/components/common/AdSense";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Meus Utiliários",
@@ -39,6 +41,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <AdSense pId="ca-pub-5994634934941500" />
+      </head>
       <body className={ageo.className}>{children}</body>
     </html>
   );
